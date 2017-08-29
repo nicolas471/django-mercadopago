@@ -174,7 +174,7 @@ class Payment(models.Model):
     A payment received, related to a preference.
     """
 
-    mp_id = models.IntegerField(
+    mp_id = models.BigIntegerField(
         _('mp id'),
         unique=True,
     )
